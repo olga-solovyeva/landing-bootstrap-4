@@ -1109,174 +1109,181 @@
     </div>
 </div>
 
+<div class="d-flex w-100">
 <div class="contacts">
-    <div class="contacts__map"></div>
-    <div class="contacts__forms">
-        <div class="contacts__title">keep in touch</div>
+    <div class="contacts__map col-md-6  col-12"></div>
+    <div class="contacts__forms px-3">
+        <p class="contacts__title">keep in touch</p>
 
         <form>
-            <div class="contacts__form-group">
-                <label for="exampleFormControlInput1"></label>
+            <div class="form-group">
+                <label for="contactsName"></label>
                 <input type="name" class="form-control contacts__name "
-                       id="exampleFormControlInput1" placeholder="Name">
+                       id="contactsName" placeholder="Name">
             </div>
-            <div class="contacts__form-group">
-                <label for="exampleFormControlInput1"></label>
-                <input type="email" class="form-control contacts__email "
-                       id="exampleFormControlInput2" placeholder="Email">
+            <div class="form-group">
+                <label for="contactsMail"></label>
+                <input type="email" class="form-control contacts__name "
+                       id="contactsMail" placeholder="Email">
             </div>
 
 
-            <div class="contacts__form-group">
-                <label for="exampleFormControlTextarea1"></label>
-                <textarea class="form-control contacts__message" id="exampleFormControlTextarea1"
+            <div class="form-group">
+                <label for="contactsMessage"></label>
+                <textarea class="form-control contacts__message pb-5" id="contactsMessage"
                           rows="3" placeholder="Message"></textarea>
             </div>
-            <div class="contacts__btn">send request</div>
+            <button class="btn contacts__btn py-4">send request</button>
 
         </form>
     </div>
 </div>
+</div>
 
-
-<div class="footer">
-
-
-    <div class="footer__adress-block">
-        <div class="footer__adress-logo">panz<span
-                class="footer__adress-logo--a">a</span></div>
-        <div class="footer__adress-info">Some quick example text to build on the card
-            title and make up the bulk of the card's content.
-        </div>
-        <div class="footer__adress-contacts"> Office:
-            <p class="footer__adress-contacts--info">795 Follsom Ave, Sulte 600 San francisco, CA 94107</p></div>
-        <div class="footer__adress-contacts">Phone:<span
-                class="footer__adress-contacts--info">(91)8547 632521 </span><br> Fax: <span
-                class="footer__adress-contacts--info">
+<div class="d-flex w-100 justify-content-center footer">
+    <div class="footer__block">
+        <div class="col-lg-3 col-md-6 col-12">
+            <div class="footer__adress-logo">panz<span
+                    class="footer__adress-logo--a">a</span></div>
+            <p class="footer__adress-info pb-5 mb-5">Some quick example text to build on the card
+                title and make up the bulk of the card's content.
+            </p>
+            <div class="footer__adress-contacts"> Office:
+                <p class="footer__adress-contacts--info">795 Follsom Ave, Sulte 600 San francisco, CA 94107</p></div>
+            <div class="footer__adress-contacts">Phone:<span
+                    class="footer__adress-contacts--info">(91)8547 632521 </span><br> Fax: <span
+                    class="footer__adress-contacts--info">
 
                     (91)11 4752 1433</span> <br> Email: <span
-                class="footer__adress-contacts--info">info@canvas.com </span></div>
+                    class="footer__adress-contacts--info">info@canvas.com </span></div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-12">
+            <p class="footer__recent-post-title mb-5"> recent post</p>
+
+            <ul class="list-unstyled">
+                <li class="media footer__recent-post-media pb-3 mb-5">
+                    <img class="mr-3 footer__recent-post-img" src="./assets/images/icons/team.png"
+                         alt="Generic placeholder image">
+                    <div class="media-body">
+                        <p class="footer__recent-post-text--title">a standart image post</p>
+                        <p class="footer__recent-post-text"> Cras sit amet nibh libero, in gravida nulla. Nulla vel
+                            metus scelerisque ante sollicitudin.
+                            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis..
+                        </p>
+                        <p class="footer__recent-post-text--date">10 march 2015</p>
+                    </div>
+                </li>
+                <li class="media footer__recent-post-media pb-3 mb-5">
+                    <img class="mr-3 footer__recent-post-img" src="./assets/images/icons/team3.png"
+                         alt="Generic placeholder image">
+                    <div class="media-body">
+                        <p class="footer__recent-post-text--title">a standart image post</p>
+                        <p class="footer__recent-post-text"> Cras sit amet nibh libero, in gravida nulla. Nulla vel
+                            metus scelerisque ante sollicitudin.
+                            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis..
+                        </p>
+                        <p class="footer__recent-post-text--date">10 march 2015</p>
+                    </div>
+                </li>
+                <li class="media footer__recent-post-media pb-3 mb-5">
+                    <img class="mr-3 footer__recent-post-img" src="./assets/images/icons/team1.png"
+                         alt="Generic placeholder image">
+                    <div class="media-body">
+                        <p class="footer__recent-post-text--title">a standart image post</p>
+                        <p class="footer__recent-post-text"> Cras sit amet nibh libero, in gravida nulla. Nulla vel
+                            metus scelerisque ante sollicitudin.
+                            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis..
+                        </p>
+                        <p class="footer__recent-post-text--date">10 march 2015</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__tags-newsletter col-lg-3 col-md-6 col-12">
+            <div class="footer__tags-block">
+                tags
+
+                <div class="footer__tags">
+
+                    <div class="footer__tags-colmn">
+                        <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
+                        <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
+                        <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
+                        <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
+
+                    </div>
+                    <div class="footer__tags-colmn">
+                        <div class="footer__tags-btn">gallery</div>
+                        <div class="footer__tags-btn">gallery</div>
+                        <div class="footer__tags-btn">gallery</div>
+                        <div class="footer__tags-btn">gallery</div>
+                    </div>
+
+                    <div class="footer__tags-colmn">
+                        <div class="footer__tags-btn">Image</div>
+                        <div class="footer__tags-btn">image</div>
+                        <div class="footer__tags-btn">image</div>
+                        <div class="footer__tags-btn">image</div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="footer__newsletter--block">newsletter
+
+                <div class="footer__newsletter--text">Subscribe to Our Newsletter to get Important News. Amazing Offers.
+                </div>
+                <div class="input-group">
+                    <input type="text" class="footer__newsletter--input" placeholder="Enter email"
+                           aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="footer__newsletter--go" id="basic-addon2">go</span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="footer__flicke col-lg-2 col-md-6 col-12">
+
+            flicke feed
+            <div class="footer__flicke--block">
+                <div class="footer__flicke--colmn">
+
+                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
+                         alt="Responsive image">
+                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
+                         alt="Responsive image">
+                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
+                         alt="Responsive image">
+
+                </div>
+
+                <div class="footer__flicke--colmn">
+
+                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
+                         alt="Responsive image">
+                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
+                         alt="Responsive image">
+                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
+                         alt="Responsive image">
+
+                </div>
+            </div>
+        </div>
+
 
     </div>
-
-
-    <div class="footer__recent-post-block">
-        recent post
-        <div class="footer__recent-post-card">
-            <img class="footer__recent-post-img" src="http://via.placeholder.com/66x76"
-                 alt="Generic placeholder image">
-            <div class="footer__recent-post-block-text">
-                <div class="footer__recent-post-text--title">a standart image post</div>
-                <div class=" footer__recent-post-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                    scelerisque ante
-                </div>
-                <div class="footer__recent-post-text--date">10 march 2015</div>
-            </div>
-        </div>
-        <div class="footer__recent-post-card">
-            <img class="footer__recent-post-img" src="http://via.placeholder.com/66x76"
-                 alt="Generic placeholder image">
-            <div class="footer__recent-post-block-text">
-                <div class="footer__recent-post-text--title">a standart image post</div>
-                <div class=" footer__recent-post-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                    scelerisque ante
-                </div>
-                <div class="footer__recent-post-text--date">10 march 2015</div>
-            </div>
-        </div>
-
-        <div class="footer__recent-post-card">
-            <img class="footer__recent-post-img" src="http://via.placeholder.com/66x76"
-                 alt="Generic placeholder image">
-            <div class="footer__recent-post-block-text">
-                <div class="footer__recent-post-text--title">a standart image post</div>
-                <div class=" footer__recent-post-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                    scelerisque ante
-                </div>
-                <div class="footer__recent-post-text--date">10 march 2015</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer__tags-newsletter">
-        <div class="footer__tags-block">
-            tags
-
-            <div class="footer__tags">
-
-                <div class="footer__tags-colmn">
-                    <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
-                    <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
-                    <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
-                    <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
-
-                </div>
-                <div class="footer__tags-colmn">
-                    <div class="footer__tags-btn">gallery</div>
-                    <div class="footer__tags-btn">gallery</div>
-                    <div class="footer__tags-btn">gallery</div>
-                    <div class="footer__tags-btn">gallery</div>
-                </div>
-
-                <div class="footer__tags-colmn">
-                    <div class="footer__tags-btn">Image</div>
-                    <div class="footer__tags-btn">image</div>
-                    <div class="footer__tags-btn">image</div>
-                    <div class="footer__tags-btn">image</div>
-                </div>
-
-            </div>
-
-
-        </div>
-
-
-        <div class="footer__newsletter--block">newsletter
-
-            <div class="footer__newsletter--text">Subscribe to Our Newsletter to get Important News. Amazing Offers.
-            </div>
-            <div class="input-group">
-                <input type="text" class="footer__newsletter--input" placeholder="Enter email"
-                       aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <span class="footer__newsletter--go" id="basic-addon2">go</span>
-            </div>
-
-        </div>
-
-
-    </div>
-
-
-    <div class="footer__flicke">
-
-        flicke feed
-        <div class="footer__flicke--block">
-            <div class="footer__flicke--colmn">
-
-                <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                     alt="Responsive image">
-                <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                     alt="Responsive image">
-                <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                     alt="Responsive image">
-
-            </div>
-
-            <div class="footer__flicke--colmn">
-
-                <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                     alt="Responsive image">
-                <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                     alt="Responsive image">
-                <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                     alt="Responsive image">
-
-            </div>
-        </div>
-    </div>
-
-
 </div>
+
 <div class="footer__copyright">
     <p class="m-0">copyright 2017 <span class="footer__copyright--logo"> panza </span> |all rights reserved </p>
 </div>
