@@ -41,7 +41,7 @@
                         <a class="nav-item nav-link  header__menu--item" href="#">blog</a>
                         <a class="nav-item nav-link  header__menu--item" href="#">team</a>
                         <a class="nav-item nav-link  header__menu--item" href="#">contact</a>
-                        <a class="nav-link nav-item header__menu--item header__search-icon dropdown"
+                        <a class="nav-link nav-item header__menu--item header__search-icon dropdown pr-0"
                            href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                            aria-expanded="false">
                             <span class="oi oi-magnifying-glass "></span>
@@ -116,7 +116,7 @@
     </div>
 
 
-    <div class="row">
+    <div class="d-flex">
         <div class="four-options__item col-12 col-sm-6  col-lg-3">
             <div class="four-options__icon"><img src="./assets/images/icons/point.svg"></div>
             different theme option
@@ -697,9 +697,9 @@
 
         </div>
     </div>
-</div>
 
-<div class="row">
+
+    <div class="d-flex">
 
     <div class="facts__item col-12 col-sm-6  col-lg-3">
         <div class="facts__ellipse"><img class="facts__icon" src="./assets/images/icons/facts_1.png"></div>
@@ -1110,34 +1110,34 @@
 </div>
 
 <div class="d-flex w-100">
-<div class="contacts">
-    <div class="contacts__map col-md-6  col-12"></div>
-    <div class="contacts__forms px-3">
-        <p class="contacts__title">keep in touch</p>
+    <div class="contacts">
+        <div class="contacts__map col-md-6  col-12"></div>
+        <div class="contacts__forms px-3">
+            <p class="contacts__title">keep in touch</p>
 
-        <form>
-            <div class="form-group">
-                <label for="contactsName"></label>
-                <input type="name" class="form-control contacts__name "
-                       id="contactsName" placeholder="Name">
-            </div>
-            <div class="form-group">
-                <label for="contactsMail"></label>
-                <input type="email" class="form-control contacts__name "
-                       id="contactsMail" placeholder="Email">
-            </div>
+            <form>
+                <div class="form-group">
+                    <label for="contactsName"></label>
+                    <input type="name" class="form-control contacts__name "
+                           id="contactsName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="contactsMail"></label>
+                    <input type="email" class="form-control contacts__name "
+                           id="contactsMail" placeholder="Email">
+                </div>
 
 
-            <div class="form-group">
-                <label for="contactsMessage"></label>
-                <textarea class="form-control contacts__message pb-5" id="contactsMessage"
-                          rows="3" placeholder="Message"></textarea>
-            </div>
-            <button class="btn contacts__btn py-4">send request</button>
+                <div class="form-group">
+                    <label for="contactsMessage"></label>
+                    <textarea class="form-control contacts__message pb-5" id="contactsMessage"
+                              rows="3" placeholder="Message"></textarea>
+                </div>
+                <button class="btn contacts__btn py-4">send request</button>
 
-        </form>
+            </form>
+        </div>
     </div>
-</div>
 </div>
 
 <div class="d-flex w-100 justify-content-center footer">
@@ -1150,12 +1150,12 @@
             </p>
             <div class="footer__adress-contacts"> Office:
                 <p class="footer__adress-contacts--info">795 Follsom Ave, Sulte 600 San francisco, CA 94107</p></div>
-            <div class="footer__adress-contacts">Phone:<span
-                    class="footer__adress-contacts--info">(91)8547 632521 </span><br> Fax: <span
-                    class="footer__adress-contacts--info">
+            <div class="footer__adress-contacts mb-5">Phone:
+                <span class="footer__adress-contacts--info">(91)8547 632521 </span><br> Fax:
+                <span class="footer__adress-contacts--info">
 
                     (91)11 4752 1433</span> <br> Email: <span
-                    class="footer__adress-contacts--info">info@canvas.com </span></div>
+                        class="footer__adress-contacts--info">info@canvas.com </span></div>
 
         </div>
 
@@ -1203,31 +1203,32 @@
             </ul>
         </div>
 
-        <div class="footer__tags-newsletter col-lg-3 col-md-6 col-12">
-            <div class="footer__tags-block">
+        <div class="col-lg-3 col-md-6 col-12">
+            <div class="footer__tags-block pb-4 mb-4">
                 tags
 
-                <div class="footer__tags">
+                <div class="footer__tags pb-4">
 
-                    <div class="footer__tags-colmn">
-                        <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
-                        <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
-                        <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
-                        <div class="footer__tags-btn--audio footer__tags-btn">audio</div>
+                    <div class="col px-0">
+                        <button type="button" class="btn footer__tags-btn mb-2">audio</button>
+                        <button type="button" class="btn footer__tags-btn mb-2">audio</button>
+                        <button type="button" class="btn footer__tags-btn mb-2">audio</button>
+                        <button type="button" class="btn footer__tags-btn">audio</button>
+
 
                     </div>
-                    <div class="footer__tags-colmn">
-                        <div class="footer__tags-btn">gallery</div>
-                        <div class="footer__tags-btn">gallery</div>
-                        <div class="footer__tags-btn">gallery</div>
-                        <div class="footer__tags-btn">gallery</div>
+                    <div class="col">
+                        <button type="button" class="btn footer__tags-btn mb-2">gallery</button>
+                        <button type="button" class="btn footer__tags-btn mb-2">gallery</button>
+                        <button type="button" class="btn footer__tags-btn mb-2">gallery</button>
+                        <button type="button" class="btn footer__tags-btn">gallery</button>
                     </div>
 
-                    <div class="footer__tags-colmn">
-                        <div class="footer__tags-btn">Image</div>
-                        <div class="footer__tags-btn">image</div>
-                        <div class="footer__tags-btn">image</div>
-                        <div class="footer__tags-btn">image</div>
+                    <div class="col px-0">
+                        <button type="button" class="btn footer__tags-btn mb-2">Image</button>
+                        <button type="button" class="btn footer__tags-btn mb-2">Image</button>
+                        <button type="button" class="btn footer__tags-btn mb-2">Image</button>
+                        <button type="button" class="btn footer__tags-btn">Image</button>
                     </div>
 
                 </div>
@@ -1236,14 +1237,15 @@
             </div>
 
 
-            <div class="footer__newsletter--block">newsletter
+            <div class="pt-3">
 
-                <div class="footer__newsletter--text">Subscribe to Our Newsletter to get Important News. Amazing Offers.
-                </div>
-                <div class="input-group">
-                    <input type="text" class="footer__newsletter--input" placeholder="Enter email"
-                           aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <span class="footer__newsletter--go" id="basic-addon2">go</span>
+                <p class="footer__newsletter--title "> newsletter </p>
+                <p class="footer__newsletter--text pt-4">Subscribe to Our Newsletter to get Important News. Amazing
+                    Offers.</p>
+                <div class="input-group mb-5">
+                    <input type="text" class="form-control footer__newsletter--input" placeholder="Enter email"
+                           aria-label="Subscribe" aria-describedby="basic-addon2">
+                    <button class="btn footer__newsletter--go" type="button" id="basic-addon2">go</button>
                 </div>
 
             </div>
@@ -1252,43 +1254,64 @@
         </div>
 
 
-        <div class="footer__flicke col-lg-2 col-md-6 col-12">
+        <div class=" col-lg-2 col-md-6 col-12">
 
-            flicke feed
-            <div class="footer__flicke--block">
-                <div class="footer__flicke--colmn">
+            <p class="footer__flicke-title">flicke feed </p>
+            <!--<div class="d-flex flex-wrap">-->
 
-                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                         alt="Responsive image">
-                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                         alt="Responsive image">
-                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                         alt="Responsive image">
 
-                </div>
+            <!--<div class="col-12 col-md-6 pl-0">-->
 
-                <div class="footer__flicke--colmn">
+            <!--<img src="assets/images/work_1.png" class="footer__flicke-img mb-2"-->
+            <!--alt="Responsive image">-->
+            <!--<img src="assets/images/work_2.png" class="footer__flicke-img mb-2"-->
+            <!--alt="Responsive image">-->
+            <!--<img src="assets/images/work_3.png" class="footer__flicke-img mb-2"-->
+            <!--alt="Responsive image">-->
 
-                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                         alt="Responsive image">
-                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                         alt="Responsive image">
-                    <img src="http://via.placeholder.com/74x74" class="footer__flicke--img"
-                         alt="Responsive image">
+            <!--</div>-->
 
-                </div>
+            <!--<div class="col-12 col-md-6 pl-0">-->
+
+            <!--<img src="assets/images/work_4.png" class="footer__flicke-img mb-2"-->
+            <!--alt="Responsive image">-->
+            <!--<img src="assets/images/work_5.png" class="footer__flicke-img mb-2"-->
+            <!--alt="Responsive image">-->
+            <!--<img src="assets/images/work_6.png" class="footer__flicke-img mb-2"-->
+            <!--alt="Responsive image">-->
+
+            <!--</div>-->
+
+            <div class="d-flex flex-wrap justify-content-between">
+
+                <img src="assets/images/work_1.png" class="footer__flicke-img"
+                     alt="Responsive image">
+                <img src="assets/images/work_1.png" class="footer__flicke-img"
+                     alt="Responsive image">
+                <img src="assets/images/work_1.png" class="footer__flicke-img"
+                     alt="Responsive image">
+                <img src="assets/images/work_1.png" class="footer__flicke-img"
+                     alt="Responsive image">
+                <img src="assets/images/work_1.png" class="footer__flicke-img"
+                     alt="Responsive image">
+                <img src="assets/images/work_1.png" class="footer__flicke-img"
+                     alt="Responsive image">
+                <img src="assets/images/work_1.png" class="footer__flicke-img"
+                     alt="Responsive image">
+                <img src="assets/images/work_1.png" class="footer__flicke-img"
+                     alt="Responsive image">
             </div>
         </div>
-
-
     </div>
+
+
 </div>
 
-<div class="footer__copyright">
+    <div class="d-flex w-100 justify-content-center align-items-center footer__copyright">
     <p class="m-0">copyright 2017 <span class="footer__copyright--logo"> panza </span> |all rights reserved </p>
 </div>
 
-
+</div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
