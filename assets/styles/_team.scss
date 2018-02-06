@@ -1,0 +1,132 @@
+.team {
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  padding: 5.5rem 0;
+  width: 100%;
+
+  &__title {
+    font-size: 36px;
+    color: rgb(78, 78, 78);
+    font-family: "Montserrat-Regular", sans-serif;
+    position: relative;
+    text-transform: capitalize;
+    &:before {
+      content: "";
+      width: 80px;
+      height: 4px;
+      border-bottom: 1px solid #18cfab;
+      position: absolute;
+      top: calc(100% + 1.7rem);
+      left: 50%;
+      margin-left: -45px;
+    }
+    &:after {
+      content: "";
+      width: 80px;
+      height: 4px;
+      border-bottom: 1px solid #18cfab;
+      position: absolute;
+      top: calc(100% + 1.9rem);
+      left: 50%;
+      margin-left: -35px;
+    }
+
+  }
+
+  &__card {
+    background-color: #2d495b;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: capitalize;
+    border: 0;
+
+    &:hover {
+      .card-body {
+        background-color: #17cfab;
+      }
+    }
+    &:hover .team__img-overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &:hover .team__position {
+      color: rgb(46, 74, 91);
+    }
+  }
+
+  &__img-overlay {
+    //width: 263px;
+    //height: 229px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+    //position: absolute;
+
+    &:before {
+      width: 84px;
+      height: 84px;
+      border-radius: 42px;
+      border: 2px solid #17cfab;
+      position: absolute;
+      content: "";
+    }
+
+    &:after {
+      position: absolute;
+      content: url("./assets/images/icons/team_hover-plus.png");
+      width: 70px;
+      height: 70px;
+      border-radius: 35px;
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
+
+  &__img {
+    position: relative;
+  }
+
+  &__social-block {
+    background-color: #2d495b;
+    display: flex;
+    height: 65px;
+
+  }
+
+  &__social {
+    border: 1px solid #f7fbfd;
+    color: white;
+    background: transparent;
+    border-radius: 0;
+    width: 100%;
+    line-height: 3;
+    border-bottom: transparent;
+
+    &:last-of-type {
+      border-right: transparent;
+    }
+
+    &:first-of-type {
+      border-left: transparent;
+    }
+  }
+
+  &__position {
+    font-size: 13px;
+    color: rgb(24, 207, 171);
+    font-family: "Montserrat-Light", sans-serif;
+  }
+
+}
+

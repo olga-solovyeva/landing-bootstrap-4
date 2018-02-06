@@ -1,0 +1,426 @@
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Montserrat-Regular.otf") format("Open Type")
+}
+
+body {
+  line-height: 1;
+}
+
+.text-we-are-creative {
+  font-size: 79px;
+  text-transform: uppercase;
+}
+
+.text-fs-35 {
+  font-size: 35px;
+}
+
+.background-color-btn {
+  background-color: #18cfab;
+  &:hover {
+    background-color: #2e4a5b !important;
+  }
+}
+
+.background-color-card {
+  background-color: #2e4a5b;
+  &:hover {
+    background-color: #18cfab !important;
+  }
+}
+
+.text-title-info:hover {
+  color: #18cfab;
+}
+
+.text-nav-header:hover {
+  color: #18cfab !important;
+}
+
+.text-navbar-brand {
+  font-size: 32px;
+}
+
+.text-history:hover {
+  color: #18cfab;
+}
+
+.text-button-group-all {
+  font-size: 14px !important;
+  background-color: #ffffff !important;
+}
+
+.text-button-group-all:hover {
+  color: #18cfab !important;
+}
+
+.text-everything {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.text-card-title {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* Style for "$199/Month" */
+.text-card-number {
+  font-size: 39px;
+
+}
+
+/* Text style for "$, 199" */
+
+.text-title-card-wt-list {
+  font-size: 51px;
+}
+
+.text-subtitle-card-wt-list {
+  font-size: 47px;
+  text-transform: uppercase;
+}
+
+/* Style for "theHam" */
+.text-footer-title {
+  font-size: 40px;
+}
+
+/* Style for "recent pos" */
+
+.text-fs-18 {
+  font-size: 18px;
+}
+
+.text-fs-14 {
+  font-size: 14px;
+}
+
+.text-300 {
+  font-weight: 300;
+
+}
+
+.text-color-f7 {
+  color: #f7f7f7
+
+}
+
+.text-color-b2 { /* Style for "Lorem ipsu" */
+
+  color: #b2b2b2
+}
+
+.text-color-white {
+  color: #ffffff;
+}
+
+.text-color-71 {
+  color: #717171
+}
+
+.text-color-b8 {
+  color: #b8b8b8
+}
+
+.text-color-18c {
+  color: #18cfab;
+}
+
+.text-color-f5 {
+  color: #f5f5f5
+
+}
+
+.text-color-77 {
+  color: #777777
+}
+
+.text-color-d4 {
+  color: #d4d4d4;
+}
+
+.text-color-4e {
+  color: #4e4e4e;
+
+}
+
+.text-color-90a {
+  color: #90aebd;
+
+}
+
+.text-fs-13 {
+  font-size: 13px;
+}
+
+.background-4option {
+  background-color: #1c2a33;
+}
+
+.background-color-4option-2 {
+  background-color: #18cfab;
+}
+
+.background-color-transparent {
+  background-color: #2e4a5b;
+}
+
+.background-color-2e4 {
+  background-color: #2e4a5b;
+}
+
+.text-color-bb {
+  color: #bbbbbb;
+}
+
+a:hover {
+  color: #18cfab;
+
+}
+
+.bg-opacity {
+  opacity: 0.7;
+}
+
+.bg-color-00c {
+  background-color: #00cbf6;
+}
+
+.box-shadow-pur {
+  box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 1);
+}
+
+.bg-h-nav {
+  background-color: rgba(73, 71, 63, 0.6);
+}
+
+.box-shadow-1section {
+  box-shadow: 0px -10px 0px 0px rgba(24, 207, 171, 1);
+}
+
+.box-shadow-2section {
+  box-shadow: 0px -10px 0px 0px rgba(255, 255, 255, 1);
+}
+
+.btn-group > .btn-about {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.btn-about:hover {
+  box-shadow: 0px -1px 0px 0px rgba(24, 207, 171, 1);
+  color: #18cfab;
+  border-radius: 0;
+}
+
+.btn-border {
+  border: 1px solid #ebebeb;
+
+}
+
+.bg-color-9c5 {
+  background-color: #9c5da5;
+}
+
+.bg-color-11b {
+  background-color: #11b0de;
+}
+
+.bg-color-d67 {
+  background-color: #d67f7f;
+
+}
+
+.bg-color-20b {
+  background-color: #20bc9d;
+}
+
+.bg-color-bb8 {
+  background-color: #bb8a36;
+
+}
+
+.btn-group > .btn-services {
+  background-color: #f8fcfe;
+  border-radius: 0;
+
+}
+
+.btn-services:hover {
+  background-color: #18cfab;
+  color: #ffffff;
+  border-radius: 0;
+
+}
+
+.btn-services:hover:before, .btn-services:hover:after {
+  border-bottom-width: 0;
+  position: absolute;
+  display: block;
+  border-style: solid;
+  box-sizing: inherit;
+  border-color: #ffffff;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-right-width: 10px;
+  border-left-width: 10px;
+  border-bottom-width: 0px;
+  border-top-width: 10px;
+}
+
+.btn-services:hover:before {
+
+  content: "";
+  border-top-color: rgba(0, 0, 0, .25);
+
+}
+
+.btn-services:hover:after {
+
+  border-top-color: #18cfab;
+  content: "";
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.btn-group > .btn-flex {
+  flex-grow: 1;
+}
+
+.block-header {
+  padding-top: 244px;
+  margin: 0;
+}
+
+.block-header-we-are {
+  padding-top: 46px;
+  margin: 0;
+
+}
+
+.block-header-sub {
+  padding-top: 36px;
+  margin: 0;
+
+}
+
+.block-header-btn {
+  padding-top: 140px;
+  margin: 0;
+}
+
+.btn-lrg {
+  padding: 1.5rem;
+  border-radius: .25rem;
+  width: 168px;
+  height: 63px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.block-4section {
+  height: 377px;
+}
+
+.block-4section-text {
+  padding-bottom: 121px;
+  padding-top: 95px;
+}
+
+.block-4section-img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lh-40 {
+
+  line-height: 40px;
+}
+
+.shape {
+  width: 79px;
+  height: 4px;
+  border-bottom: 1px solid #18cfab;
+}
+
+.lh-25 {
+  line-height: 25px;
+
+}
+
+.pl-47 {
+  padding-left: 47px;
+}
+
+.position-abs {
+  position: absolute;
+}
+
+.position-rel {
+  position: relative;
+}
+
+.center-y {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pb-95 {
+  padding-bottom: 95px;
+}
+
+.about-comp-pt101 {
+  padding-top: 101px;
+}
+
+.about-comp-pt27 {
+  padding-top: 27px;
+}
+
+.history-p {
+  padding-top: 67px;
+  padding-bottom: 53px;
+}
+
+.mb-11 {
+  margin-bottom: 11px;
+}
+
+.progress-bar {
+  height: 20px;
+}
+
+.progress {
+  line-height: 1.7rem;
+  text-align: left;
+  background-color: inherit;
+  border: 1px solid #959595;
+}
+
+@import "assets/styles/block-creative";
+@import "assets/styles/header";
+@import "assets/styles/4-options";
+@import "assets/styles/home";
+@import "assets/styles/features";
+@import "assets/styles/about-company";
+@import "assets/styles/work";
+@import "assets/styles/services";
+@import "assets/styles/purchase";
+@import "assets/styles/breaking-news";
+@import "assets/styles/facts";
+@import "assets/styles/pricing-table";
+@import "assets/styles/odds";
+@import "assets/styles/team";
+@import "assets/styles/contacts";
+@import "assets/styles/footer";
+@import "assets/styles/feedback";

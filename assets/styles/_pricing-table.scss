@@ -1,0 +1,147 @@
+.pricing {
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  padding: 5.5rem 0;
+  width: 100%;
+
+  &__title {
+    font-size: 36px;
+    color: rgb(78, 78, 78);
+    font-family: "Montserrat-Regular", sans-serif;
+    position: relative;
+
+    &:before {
+      content: "";
+      width: 80px;
+      height: 4px;
+      border-bottom: 1px solid #18cfab;
+      position: absolute;
+      top: calc(100% + 1.7rem);
+      left: 50%;
+      margin-left: -45px;
+    }
+    &:after {
+      content: "";
+      width: 80px;
+      height: 4px;
+      border-bottom: 1px solid #18cfab;
+      position: absolute;
+      top: calc(100% + 1.9rem);
+      left: 50%;
+      margin-left: -35px;
+    }
+
+  }
+
+  &__card {
+    background-color: #f7fbfd;
+
+    &:hover {
+      .pricing__card-cost, .pricing__btn {
+        background-color: #17cfab;
+      }
+
+    }
+    &:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      z-index: 1;
+    }
+    &:hover {
+      .pricing__card-title {
+        color: rgb(31, 218, 181);
+        &:before {
+          position: absolute;
+          height: 0;
+          width: 86px;
+          border-bottom: 25px solid #17cfab;
+          border-left: 25px solid transparent;
+          border-right: 25px solid transparent;
+          transform: rotate(45deg);
+          top: 8px;
+          right: -21px;
+          content: "";
+        }
+        &:after {
+          transform: rotate(45deg);
+          position: absolute;
+          content: "offer";
+          font-size: 14px;
+          color: white;
+          font-family: "Montserrat-Regular", sans-serif;
+          text-align: center;
+          text-transform: uppercase;
+          right: 0px;
+
+        }
+
+      }
+    }
+  }
+
+  &__card-title {
+    font-size: 24px;
+    color: rgb(113, 113, 113);
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.3;
+    padding-top: 0.3rem;
+    position: relative;
+
+  }
+
+  &__card-cost {
+    font-size: 39px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bold;
+    background-color: #2d495b;
+    line-height: 2.6;
+
+  }
+
+  &__month {
+    font-size: 14px;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-weight: normal;
+  }
+
+  &__list {
+    line-height: 2.5;
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    font-family: "Montserrat-Regular", sans-serif;
+    background-color: #f7fbfd;
+
+  }
+
+  &__btn {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bold;
+    background-color: #2d495b;
+    line-height: 3.5;
+    text-transform: uppercase;
+  }
+
+}
+
+.card-group .card {
+  @media (min-width: 576px) {
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%;
+  }
+}
+
+.card-group .card {
+  @media (min-width: 992px) {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+  }
+}
+

@@ -1,0 +1,90 @@
+.odds {
+  background: #223541;
+
+  @media (min-width: 992px) {
+    background: #223541 url("./assets/images/icons/odds_bg-img.png") no-repeat left bottom border-box;
+    background-size: 70%;
+    background-position: left 90%;
+    height: 924px;
+
+  }
+
+  &__block {
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 5.5rem 0;
+    width: 100%;
+  }
+
+  &__title {
+    font-size: 51px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    color: #18cfab;
+    font-size: 43px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  //&__section {
+  //  width: 100%;
+  //  display: flex;
+  //  flex-direction: column;
+  //  padding: 3.8rem 0;
+  //  justify-content: center;
+  //  align-items: flex-end;
+  //
+  //}
+
+  &__list {
+
+    @media (max-width: 991.98px) {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__list-item {
+    font-size: 14px;
+    color: rgb(247, 247, 247);
+    font-family: "Montserrat-Light", sans-serif;
+    font-weight: normal;
+    line-height: 2.7;
+
+    &:before {
+      position: absolute;
+      content: url("./assets/images/icons/odds_check.png");
+      left: calc(0% - 0.4rem);
+      height: 100%;
+
+      @media (max-width: 991.98px) {
+        left: calc(0% - 1rem)
+      }
+
+    }
+
+  }
+
+  &__btn {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #17cfab;
+    box-shadow: 0px -5px 0px 0px white;
+    text-transform: uppercase;
+  }
+
+}

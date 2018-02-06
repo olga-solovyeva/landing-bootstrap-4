@@ -1,0 +1,127 @@
+.services {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  height: 100%;
+  padding: 5.5rem 0;
+
+  &__title {
+    font-size: 36px;
+    color: rgb(78, 78, 78);
+    font-family: "Montserrat-Regular", sans-serif;
+    position: relative;
+    text-align: center;
+    margin-bottom: 6rem;
+
+    &:before {
+      content: "";
+      width: 80px;
+      height: 4px;
+      border-bottom: 1px solid #18cfab;
+      position: absolute;
+      top: calc(100% + 1.7rem);
+      left: 50%;
+      margin-left: -45px;
+    }
+    &:after {
+      content: "";
+      width: 80px;
+      height: 4px;
+      border-bottom: 1px solid #18cfab;
+      position: absolute;
+      top: calc(100% + 1.9rem);
+      left: 50%;
+      margin-left: -35px;
+    }
+
+  }
+  &__btn-block {
+    flex-wrap: nowrap;
+    //height: 72px;
+
+    @media (max-width: 992px) {
+      flex-wrap: wrap;
+
+    }
+
+  }
+
+  &__btn {
+    font-size: 16px;
+    font-family: "Montserrat-Regular", sans-serif;
+    background-color: #f7fbfd;
+    border: 1px solid #ebebeb;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(113, 113, 113);
+    line-height: 3;
+
+  }
+
+  &__collapse-img {
+    height: 139px;
+    background-color: #797979;
+
+    @media (max-width: 992px) {
+      display: none;
+    }
+
+  }
+
+  &__collapse-text {
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    font-family: "Montserrat-Light", sans-serif;
+    padding-left: 1rem;
+    line-height: 1.5;
+    word-wrap: break-word;
+  }
+  &__collapse-block {
+    display: flex;
+    margin-bottom: 3rem;
+  }
+
+  &__a {
+    color: rgb(113, 113, 113);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover, &.active {
+      background-color: #17cfab;
+      border: 1px solid #17cfab;
+      color: rgb(255, 255, 255);
+      border-radius: 0;
+
+      &:after {
+        border-top-color: #18cfab;
+        content: "";
+        position: absolute;
+        display: block;
+        border-style: solid;
+        box-sizing: inherit;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-right-width: 11px;
+        border-left-width: 11px;
+        border-bottom-width: 0;
+        border-top-width: 12px;
+        color: transparent;
+
+      }
+
+    }
+  }
+}
+
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+  border-radius: 0;
+  background-color: #17cfab;
+
+}
+
