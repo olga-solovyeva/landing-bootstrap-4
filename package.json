@@ -1,0 +1,26 @@
+{
+  "name": "landing-bootstrap-4",
+  "version": "1.0.0",
+  "description": "bootstrap 4 example project",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-minify-css": "^1.2.4"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olga-solovyeva/landing-bootstrap-4.git"
+  },
+  "author": "Olga Solovyeva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olga-solovyeva/landing-bootstrap-4/issues"
+  },
+  "homepage": "https://github.com/olga-solovyeva/landing-bootstrap-4#readme"
+}
