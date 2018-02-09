@@ -2011,7 +2011,6 @@ a:hover {
     font-weight: normal;
     font-style: normal;
 }
-
 /* Arrows */
 .slick-prev,
 .slick-next {
@@ -2133,10 +2132,6 @@ a:hover {
     opacity: 0.75;
 }
 
-.carousel-caption {
-    all: initial;
-}
-
 .feedback {
     background-color: #2d495b;
 }
@@ -2239,85 +2234,11 @@ a:hover {
     left: 5px;
 }
 
-.feedback__carousel-control-prev {
-    left: 25%;
-}
-
-.feedback__carousel-control-next {
-    right: 25%;
-}
-
 .feedback__img-sm-back {
     width: 68px;
     height: 68px;
     border-radius: 34px;
     background-color: rgba(31, 217, 181, 0.2);
-}
-
-.feedback__img-sm-back.active {
-    margin-top: 1rem;
-}
-
-.feedback__carousel-indicators {
-    margin: 0 auto;
-    position: relative;
-}
-
-.feedback__carousel-item.active {
-    padding-bottom: 163px;
-}
-
-.feedback__carousel-item {
-    padding-bottom: 163px;
-}
-
-.feedback__carousel-indicators .active .feedback__img--sm {
-    border: 2px solid #17cfab;
-}
-
-.feedback__carousel-indicators .active {
-    background-color: rgba(31, 217, 181, 0.2);
-}
-
-.feedback__carousel-control-prev-icon, .feedback__carousel-control-next-icon {
-    width: 31px;
-    height: 31px;
-    border: 1px solid #bbbbbb;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-}
-
-.feedback__carousel-control-prev-icon {
-    background-image: url("./assets/images/icons/feedback-prev-icon.png");
-}
-
-.feedback__carousel-control-next-icon {
-    background-image: url("./assets/images/icons/feedback-next-icon.png");
-}
-
-.feedback__carousel-control-next, .feedback__carousel-control-prev {
-    top: 65%;
-}
-
-.feedback__carousel-control-next:hover .feedback__carousel-control-next-icon {
-    background-color: #17cfab;
-    border: none;
-}
-
-.feedback__carousel-control-prev:hover .feedback__carousel-control-prev-icon {
-    background-color: #17cfab;
-    border: none;
-}
-
-.feedback__carousel-inner {
-    width: 100%;
-}
-
-.feedback__carousel-caption {
-    position: relative;
-    padding-bottom: 163px;
-    text-align: center;
 }
 
 .feedback__slider-nav {

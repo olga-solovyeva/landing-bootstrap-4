@@ -1,16 +1,11 @@
-.carousel-caption {
-  all: initial;
-}
 
 .feedback {
-
   background-color: #2d495b;
 
   &__block {
     max-width: 1140px;
     padding: 5.5rem 0;
     width: 100%;
-
   }
 
   &__title {
@@ -20,6 +15,7 @@
     position: relative;
     text-transform: capitalize;
     text-align: center;
+
     &:before {
       content: "";
       width: 80px;
@@ -30,6 +26,7 @@
       left: 50%;
       margin-left: -45px;
     }
+
     &:after {
       content: "";
       width: 80px;
@@ -40,7 +37,6 @@
       left: 50%;
       margin-left: -35px;
     }
-
   }
 
   &__quote {
@@ -55,8 +51,8 @@
       width: 44px;
       height: 30px;
       margin: auto
-
     }
+
     &--name {
       font-size: 16px;
       color: rgb(24, 207, 171);
@@ -71,9 +67,7 @@
       font-size: 14px;
       color: rgb(187, 187, 187);
       margin-bottom: 2rem;
-
     }
-
   }
 
   &__ellipse {
@@ -86,15 +80,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
+
   &__img {
     width: 142px;
     height: 141px;
     border-radius: 71px;
     background-color: #878787;
     border: 3px solid #17cfab;
-
 
     &--sm {
       width: 58px;
@@ -104,102 +97,14 @@
       position: absolute;
       top: 21px;
       left: 5px;
-
-
     }
-
   }
 
-  &__carousel-control-prev {
-    left: 25%;
-  }
-  &__carousel-control-next {
-    right: 25%;
-  }
   &__img-sm-back {
     width: 68px;
     height: 68px;
     border-radius: 34px;
     background-color: rgba(31, 217, 181, 0.2);
-
-
-    &.active {
-      margin-top: 1rem;
-    }
-  }
-
-  &__carousel-indicators {
-    //overflow: hidden;
-    margin: 0 auto;
-    //max-width: 24rem;
-    position: relative;
-
-
-  }
-
-  &__carousel-item.active {
-    padding-bottom: 163px;
-  }
-
-  &__carousel-item {
-    padding-bottom: 163px;
-  }
-
-  &__carousel-indicators .active .feedback__img--sm {
-
-    border: 2px solid #17cfab;
-
-  }
-
-  &__carousel-indicators .active {
-    background-color: rgba(31, 217, 181, 0.2);
-
-  }
-
-  &__carousel-control-prev-icon,
-  &__carousel-control-next-icon {
-    width: 31px;
-    height: 31px;
-    border: 1px solid #bbbbbb;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-
-  }
-  &__carousel-control-prev-icon {
-    background-image: url("./assets/images/icons/feedback-prev-icon.png");
-  }
-  &__carousel-control-next-icon {
-    background-image: url("./assets/images/icons/feedback-next-icon.png");
-  }
-  &__carousel-control-next,
-  &__carousel-control-prev {
-    top: 65%;
-
-  }
-  &__carousel-control-next {
-    &:hover .feedback__carousel-control-next-icon {
-      background-color: #17cfab;
-      border: none;
-    }
-  }
-
-  &__carousel-control-prev {
-    &:hover .feedback__carousel-control-prev-icon {
-      background-color: #17cfab;
-      border: none;
-    }
-  }
-
-  &__carousel-inner {
-    //height: 163px;
-    width: 100%;
-  }
-
-  &__carousel-caption {
-    position: relative;
-    padding-bottom: 163px;
-    text-align: center;
   }
 
   &__slider-nav {
@@ -207,13 +112,10 @@
     margin-left: auto;
     margin-right: auto;
   }
-
 }
 
 .slick-current .feedback__img--sm {
-
   border: 2px solid #17cfab;
-
 }
 
 .slick-current {
@@ -227,12 +129,3 @@
   cursor: pointer;
 }
 
-.slick-prev {
-  //background-image: url("./assets/images/icons/feedback-prev-icon.png");
-  //width: 31px;
-  //height: 31px;
-  //border: 1px solid #bbbbbb;
-  //background-repeat: no-repeat;
-  //background-position: center;
-  //background-size: auto;
-}
