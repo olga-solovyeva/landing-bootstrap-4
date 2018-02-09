@@ -1483,6 +1483,18 @@ a:hover {
   }
 }
 
+@media (min-width: 992px) {
+    .card-group > .card + .card {
+        border-left: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .card-group > .card + .card {
+        border-left: 1px solid rgba(0, 0, 0, 0.125);
+    }
+}
+
 .odds {
     background: #223541;
 }
