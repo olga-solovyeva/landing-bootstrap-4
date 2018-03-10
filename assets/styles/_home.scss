@@ -9,7 +9,7 @@
 
   &__the-panza {
     font-size: 35px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
     text-align: center;
@@ -19,7 +19,7 @@
   }
   &__we-are {
     font-size: 79px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
     text-align: center;
@@ -51,7 +51,7 @@
     background-color: $global-color-java;
     padding: 1.5rem;
     text-transform: uppercase;
-    box-shadow: 0px -5px 0px 0px white;
+    box-shadow: 0 -5px 0 0 white;
     align-self: auto;
     line-height: 1;
 

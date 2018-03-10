@@ -99,10 +99,7 @@
         top: 100%;
         left: 50%;
         transform: translateX(-50%);
-        border-right-width: 11px;
-        border-left-width: 11px;
-        border-bottom-width: 0;
-        border-top-width: 12px;
+        border-width: 12px 11px 0 11px;
         color: transparent;
       }
     }
