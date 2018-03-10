@@ -1,6 +1,6 @@
 .footer {
 
-  background-color: #1b2b33;
+  background-color: $global-color-mirage;
 
   &__block {
     max-width: 1140px;
@@ -57,7 +57,7 @@
   }
 
   &__recent-post-media {
-    border-bottom: 1px solid #284453;
+    border-bottom: 1px solid $global-color-mirage;
 
     &:last-of-type {
       border-bottom: none;
@@ -96,7 +96,7 @@
     font-family: "Montserrat-Bold", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    border-bottom: 1px solid #284453;
+    border-bottom: 1px solid $global-color-mirage;
   }
 
   &__tags {
@@ -142,15 +142,15 @@
 
     &--input {
       font-size: 14px;
-      color: rgb(117, 117, 117);
+      color: $global-color-boulder;
       font-family: "Montserrat-Light", sans-serif;
-      background-color: #21353f;
+      background-color: $global-color-mirage;
       border: none;
       border-radius: 0;
       line-height: 2;
     }
     &--go {
-      background-color: #294353;
+      background-color: $global-color-mirage;
       font-size: 14px;
       color: $global-color-java;
       font-family: "Montserrat-Bold", sans-serif;
@@ -175,7 +175,7 @@
   }
   &__copyright {
     height: 108px;
-    background-color: #21353f;
+    background-color: $global-color-mirage;
     font-size: 14px;
     line-height: 2;
     color: rgb(174, 174, 174);

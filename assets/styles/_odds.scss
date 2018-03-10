@@ -1,8 +1,8 @@
 .odds {
-  background: #223541;
+  background: $global-color-mirage;
 
   @media (min-width: 992px) {
-    background: #223541 url("./assets/images/odds_bg-img.png") no-repeat left bottom border-box;
+    background: $global-color-mirage url("./assets/images/odds_bg-img.png") no-repeat left bottom border-box;
     background-size: 70%;
     background-position: left 90%;
     height: 924px;
