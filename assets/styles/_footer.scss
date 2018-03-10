@@ -14,7 +14,6 @@
       flex-direction: column;
       align-items: center;
     }
-
   }
 
   &__adress-info {
@@ -22,7 +21,6 @@
     line-height: 2;
     color: rgb(178, 178, 178);
     font-family: "Montserrat-Light", sans-serif;
-
   }
 
   &__adress-contacts {
@@ -46,7 +44,7 @@
     font-weight: bold;
 
     &--a {
-      color: #18cfab;
+      color: $global-color-java;
     }
   }
 
@@ -71,7 +69,6 @@
     background-color: #959595;
   }
 
-
   &__recent-post-text {
     font-size: 14px;
     color: rgb(178, 178, 178);
@@ -80,11 +77,10 @@
 
     &--title {
       font-size: 16px;
-      color: rgb(24, 207, 171);
+      color: $global-color-java;
       font-family: "Montserrat-Bold", sans-serif;
       font-weight: bold;
       text-transform: uppercase;
-
     }
     &--date {
       font-size: 14px;
@@ -92,7 +88,6 @@
       color: rgb(241, 241, 241);
       font-family: "Montserrat-Light", sans-serif;
       text-transform: capitalize;
-
     }
   }
   &__tags-block {
@@ -105,7 +100,6 @@
   }
 
   &__tags {
-    //width: 213px;
     display: flex;
     font-size: 14px;
     color: rgb(194, 192, 192);
@@ -115,36 +109,19 @@
     padding-top: 3rem;
   }
 
-
-
   &__tags-btn {
-    //height: 37px;
-    //width: 74px;
     background-color: transparent;
     border: 1px solid #ababab;
-    //display: flex;
-    //justify-content: center;
-    //align-items: center;
-    //padding: 0.3rem 0.7rem;
-    //margin-bottom: 0.5rem;
     color: #c2c0c0;
     border-radius: 0;
     width: 100%;
 
     &:hover {
-      background-color: #17cfab;
+      background-color: $global-color-java;
       color: white;
-      border: 1px solid #17cfab;
-
-    }
-
-    &--audio {
-      //width: 65px;
-
+      border: 1px solid $global-color-java;
     }
   }
-
-
 
   &__newsletter {
 
@@ -171,13 +148,11 @@
       border: none;
       border-radius: 0;
       line-height: 2;
-
-
     }
     &--go {
       background-color: #294353;
       font-size: 14px;
-      color: rgb(24, 207, 171);
+      color: $global-color-java;
       font-family: "Montserrat-Bold", sans-serif;
       font-weight: bold;
       text-transform: uppercase;
@@ -197,7 +172,6 @@
     width: 74px;
     height: 74px;
     margin-bottom: 0.5rem;
-
   }
   &__copyright {
     height: 108px;
@@ -210,9 +184,8 @@
     justify-content: center;
 
     &--logo {
-      color: rgb(24, 207, 171);
+      color: $global-color-java;
     }
-
   }
 
 }

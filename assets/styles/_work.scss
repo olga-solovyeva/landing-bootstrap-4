@@ -9,9 +9,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    //margin: auto;
     flex-direction: column;
-
   }
 
   &__title {
@@ -24,7 +22,7 @@
       content: "";
       width: 79px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.9rem);
       left: 50%;
@@ -34,31 +32,29 @@
       content: "";
       width: 79px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.7rem);
       left: 50%;
       margin-left: -45px;
     }
-
   }
   &__btn {
     border: 1px solid #ebebeb;
-    //padding: 1rem 1.5rem;
     color: rgb(113, 113, 113);
     font-size: 14px;
     font-family: "Montserrat-Regular", sans-serif;
 
     &:hover {
-      color: rgb(24, 207, 171);
-      border-top: 2px solid #17cfab;
+      color: $global-color-java;
+      border-top: 2px solid currentColor;
     }
 
   }
 
   &__overlay {
     background: white;
-    border-top: 2px solid #17cfab;
+    border-top: 2px solid $global-color-java;
     text-align: center;
     display: none;
 
@@ -67,7 +63,7 @@
       border-radius: 20px;
       background-image: url(./assets/images/icons/options.png);
       background-repeat: no-repeat;
-      border: 1px solid #17cfab;
+      border: 1px solid $global-color-java;
       background-position: center center;
       width: 41px;
       height: 40px;
@@ -79,7 +75,7 @@
     &:after {
       content: "";
       border-radius: 20px;
-      background-color: #17cfab;
+      background-color: $global-color-java;
       background-image: url(./assets/images/icons/seach_icon.png);
       background-repeat: no-repeat;
       background-position: center center;
@@ -88,14 +84,13 @@
       position: absolute;
       top: 3rem;
       right: 6.2rem;
-
     }
   }
 
   &__image-back {
 
     font-size: 14px;
-    color: #18cfab;
+    color: $global-color-java;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -113,12 +108,12 @@
 
   &__load-btn {
     font-size: 14px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
     padding: 1.3rem 1.6rem;
     border-radius: 4px;
-    background-color: #17cfab;
+    background-color: $global-color-java;
     margin-top: 4.5rem;
     text-transform: uppercase;
     margin-bottom: 3.5rem;

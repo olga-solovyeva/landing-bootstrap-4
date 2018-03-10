@@ -17,7 +17,7 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.7rem);
       left: 50%;
@@ -27,23 +27,18 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.9rem);
       left: 50%;
       margin-left: -35px;
     }
-
   }
   &__btn-block {
     flex-wrap: nowrap;
-    //height: 72px;
-
     @media (max-width: 992px) {
       flex-wrap: wrap;
-
     }
-
   }
 
   &__btn {
@@ -57,17 +52,14 @@
     align-items: center;
     color: rgb(113, 113, 113);
     line-height: 3;
-
   }
 
   &__collapse-img {
     height: 139px;
     background-color: #797979;
-
     @media (max-width: 992px) {
       display: none;
     }
-
   }
 
   &__collapse-text {
@@ -92,13 +84,13 @@
     align-items: center;
 
     &:hover, &.active {
-      background-color: #17cfab;
-      border: 1px solid #17cfab;
-      color: rgb(255, 255, 255);
+      background-color: $global-color-java;
+      border: 1px solid $global-color-java;
+      color: white;
       border-radius: 0;
 
       &:after {
-        border-top-color: #18cfab;
+        border-top-color: $global-color-java;
         content: "";
         position: absolute;
         display: block;
@@ -112,16 +104,13 @@
         border-bottom-width: 0;
         border-top-width: 12px;
         color: transparent;
-
       }
-
     }
   }
 }
 
 .nav-pills .nav-link.active, .show > .nav-pills .nav-link {
   border-radius: 0;
-  background-color: #17cfab;
-
+  background-color: $global-color-java;
 }
 

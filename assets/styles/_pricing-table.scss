@@ -18,7 +18,7 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.7rem);
       left: 50%;
@@ -28,23 +28,20 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.9rem);
       left: 50%;
       margin-left: -35px;
     }
-
   }
 
   &__card {
     background-color: #f7fbfd;
-
     &:hover {
       .pricing__card-cost, .pricing__btn {
-        background-color: #17cfab;
+        background-color: $global-color-java;
       }
-
     }
     &:hover {
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -52,12 +49,12 @@
     }
     &:hover {
       .pricing__card-title {
-        color: rgb(31, 218, 181);
+        color: $global-color-java;
         &:before {
           position: absolute;
           height: 0;
           width: 86px;
-          border-bottom: 25px solid #17cfab;
+          border-bottom: 25px solid $global-color-java;
           border-left: 25px solid transparent;
           border-right: 25px solid transparent;
           transform: rotate(45deg);
@@ -75,9 +72,7 @@
           text-align: center;
           text-transform: uppercase;
           right: 0px;
-
         }
-
       }
     }
   }
@@ -91,7 +86,6 @@
     line-height: 2.3;
     padding-top: 0.3rem;
     position: relative;
-
   }
 
   &__card-cost {
@@ -101,7 +95,6 @@
     font-weight: bold;
     background-color: #2d495b;
     line-height: 2.6;
-
   }
 
   &__month {
@@ -116,7 +109,6 @@
     color: rgb(119, 119, 119);
     font-family: "Montserrat-Regular", sans-serif;
     background-color: #f7fbfd;
-
   }
 
   &__btn {
@@ -128,7 +120,6 @@
     line-height: 3.5;
     text-transform: uppercase;
   }
-
 }
 
 .card-group .card {
@@ -153,5 +144,4 @@
   @media (max-width: 991.98px) {
     border-left: 1px solid rgba(0, 0, 0, .125)
   }
-
 }

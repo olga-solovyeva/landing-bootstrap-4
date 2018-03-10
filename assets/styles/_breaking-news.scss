@@ -17,7 +17,7 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.7rem);
       left: 50%;
@@ -27,7 +27,7 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.9rem);
       left: 50%;
@@ -78,11 +78,11 @@
 }
 
 .breaking-news__card:hover .breaking-news__card-img:before {
-  background-color: #17cfab;
+  background-color: $global-color-java;
 }
 
 .breaking-news__card:hover .breaking-news__card-title {
-  color: #17cfab;
+  color: $global-color-java;
 }
 
 .card-deck .card {
