@@ -18,7 +18,7 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.7rem);
       left: 50%;
@@ -28,7 +28,7 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.9rem);
       left: 50%;
@@ -49,7 +49,7 @@
 
     &:hover {
       .card-body {
-        background-color: #17cfab;
+        background-color: $global-color-java;
       }
     }
     &:hover .team__img-overlay {
@@ -64,17 +64,14 @@
   }
 
   &__img-overlay {
-    //width: 263px;
-    //height: 229px;
     background-color: rgba(0, 0, 0, 0.2);
     display: none;
-    //position: absolute;
 
     &:before {
       width: 84px;
       height: 84px;
       border-radius: 42px;
-      border: 2px solid #17cfab;
+      border: 2px solid $global-color-java;
       position: absolute;
       content: "";
     }
@@ -85,12 +82,11 @@
       width: 70px;
       height: 70px;
       border-radius: 35px;
-      background-color: #ffffff;
+      background-color: white;
       display: flex;
       align-items: center;
       justify-content: center;
     }
-
   }
 
   &__img {
@@ -101,7 +97,6 @@
     background-color: #2d495b;
     display: flex;
     height: 65px;
-
   }
 
   &__social {
@@ -124,9 +119,8 @@
 
   &__position {
     font-size: 13px;
-    color: rgb(24, 207, 171);
+    color: $global-color-java;
     font-family: "Montserrat-Light", sans-serif;
   }
-
 }
 

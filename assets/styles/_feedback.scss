@@ -20,7 +20,7 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.7rem);
       left: 50%;
@@ -31,7 +31,7 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.9rem);
       left: 50%;
@@ -55,7 +55,7 @@
 
     &--name {
       font-size: 16px;
-      color: rgb(24, 207, 171);
+      color: $global-color-java;
       font-family: "Montserrat-Bold", sans-serif;
       font-weight: bold;
       text-align: center;
@@ -87,7 +87,7 @@
     height: 141px;
     border-radius: 71px;
     background-color: #878787;
-    border: 3px solid #17cfab;
+    border: 3px solid $global-color-java;
 
     &--sm {
       width: 58px;
@@ -115,7 +115,7 @@
 }
 
 .slick-current .feedback__img--sm {
-  border: 2px solid #17cfab;
+  border: 2px solid $global-color-java;
 }
 
 .slick-current {

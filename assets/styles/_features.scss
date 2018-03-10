@@ -1,14 +1,9 @@
 
 .features {
-  //display:flex;
-  //justify-content: center;
-  //align-items: center;
-  //flex-direction: column;
   position: relative;
   width: 100%;
   max-width: 1140px;
   height: 100%;
-  //margin: auto;
   padding: 5.5rem 0;
 
   &__text {
@@ -23,7 +18,7 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.9rem);
       left: 50%;
@@ -33,7 +28,7 @@
       content: "";
       width: 80px;
       height: 4px;
-      border-bottom: 1px solid #18cfab;
+      border-bottom: 1px solid $global-color-java;
       position: absolute;
       top: calc(100% + 1.7rem);
       left: 50%;
@@ -41,12 +36,7 @@
     }
   }
   &__block {
-    //width: 100%;
-    //display:flex;
     padding-top: 6rem;
-    //align-items: center;
-    //flex-wrap: wrap;
-    //justify-content: space-between;
     margin-left: -35px;
     margin-right: -35px;
     > .col {
@@ -78,10 +68,7 @@
 
     }
   }
-  //&__col {
-  //  max-width: 334px;
-  //
-  //}
+
 }
 
 
