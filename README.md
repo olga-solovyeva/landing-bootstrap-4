@@ -1,5 +1,5 @@
 # Live demo
-https://landing-bootstrap-4-xwmbdypydz.now.sh/
+https://olga-solovyeva.github.io/landing-bootstrap-4
 
 # Features
 - HTML5 / CSS3
