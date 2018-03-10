@@ -33,7 +33,6 @@
       left: 50%;
       margin-left: -35px;
     }
-
   }
 
   &__card-title {
@@ -42,7 +41,6 @@
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
     line-height: 1.2;
-
   }
 
   &__card-subtitle {
@@ -57,7 +55,7 @@
 
     &:before {
       font-size: 16px;
-      color: rgb(255, 255, 255);
+      color: white;
       font-family: "Montserrat-Regular", sans-serif;
       width: 67px;
       height: 65px;
@@ -72,9 +70,7 @@
       right: -1px;
       flex-direction: column;
     }
-
   }
-
 }
 
 .breaking-news__card:hover .breaking-news__card-img:before {
@@ -94,7 +90,7 @@
 
 .card-deck .card {
   @media (min-width: 992px) {
-    -ms-flex: 1 0 0%;
-    flex: 1 0 0%;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
   }
 }

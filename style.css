@@ -5,7 +5,6 @@
     font-weight: 400;
     src: url("/fonts/Montserrat-Regular.otf") format("Open Type");
 }
-
 .block-creative {
     padding-top: 98px;
     padding-bottom: 34px;
@@ -119,7 +118,7 @@
 .header__search-btn {
     background-color: #18cfab;
     border-radius: 0;
-    color: #ffffff;
+    color: white;
     width: 44px;
     height: 43px;
 }
@@ -242,7 +241,7 @@
     background-color: #18cfab;
     padding: 1.5rem;
     text-transform: uppercase;
-    box-shadow: 0px -5px 0px 0px white;
+    box-shadow: 0 -5px 0 0 white;
     align-self: auto;
     line-height: 1;
 }
@@ -740,10 +739,7 @@
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    border-right-width: 11px;
-    border-left-width: 11px;
-    border-bottom-width: 0;
-    border-top-width: 12px;
+    border-width: 12px 11px 0 11px;
     color: transparent;
 }
 
@@ -890,8 +886,8 @@
 
 @media (min-width: 992px) {
     .card-deck .card {
-        -ms-flex: 1 0 0%;
-        flex: 1 0 0%;
+        -ms-flex: 1 0 0;
+        flex: 1 0 0;
     }
 }
 
@@ -910,7 +906,7 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    box-shadow: 0px -7px 0px 0px #18cfab;
+    box-shadow: 0 -7px 0 0 #18cfab;
     font-size: 18px;
     color: #18cfab;
     font-family: "Montserrat-Light", sans-serif;
@@ -920,7 +916,7 @@
 
 .facts__item:nth-of-type(even) {
     background-color: #18cfab;
-    box-shadow: 0px -7px 0px 0px #25333b;
+    box-shadow: 0 -7px 0 0 #25333b;
     color: #25333b;
 }
 
@@ -1045,7 +1041,7 @@
     font-family: "Montserrat-Regular", sans-serif;
     text-align: center;
     text-transform: uppercase;
-    right: 0px;
+    right: 0;
 }
 
 .pricing__card-title {
@@ -1101,8 +1097,7 @@
 
 @media (min-width: 992px) {
     .card-group .card {
-        -ms-flex: 1 0 0%;
-        flex: 1 0 0%;
+        flex: 1 0 0;
     }
 }
 
@@ -1111,7 +1106,6 @@
         border-left: 0;
     }
 }
-
 @media (max-width: 991.98px) {
     .card-group > .card + .card {
         border-left: 1px solid rgba(0, 0, 0, 0.125);
@@ -1195,7 +1189,7 @@
     font-weight: bold;
     border-radius: 4px;
     background-color: #18cfab;
-    box-shadow: 0px -5px 0px 0px white;
+    box-shadow: 0 -5px 0 0 white;
     text-transform: uppercase;
 }
 
@@ -1393,7 +1387,7 @@
     border-radius: 3px;
     background-color: #18cfab;
     text-transform: uppercase;
-    box-shadow: 0px 5px 0px 0px #18cfab;
+    box-shadow: 0 5px 0 0 #18cfab;
     margin-bottom: 4px;
 }
 
@@ -1657,7 +1651,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 /* Arrows */
 .slick-prev,
 .slick-next {

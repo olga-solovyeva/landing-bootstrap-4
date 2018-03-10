@@ -71,7 +71,7 @@
           font-family: "Montserrat-Regular", sans-serif;
           text-align: center;
           text-transform: uppercase;
-          right: 0px;
+          right: 0;
         }
       }
     }
@@ -90,7 +90,7 @@
 
   &__card-cost {
     font-size: 39px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
     background-color: #2d495b;
@@ -113,7 +113,7 @@
 
   &__btn {
     font-size: 14px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
     background-color: #2d495b;
@@ -131,8 +131,7 @@
 
 .card-group .card {
   @media (min-width: 992px) {
-    -ms-flex: 1 0 0%;
-    flex: 1 0 0%;
+    flex: 1 0 0;
   }
 }
 

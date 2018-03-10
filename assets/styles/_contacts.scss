@@ -38,13 +38,11 @@
 
     @media (max-width: 575.98px) {
       margin-top: 3rem;
-
     }
   }
   &__name {
     line-height: 2.5;
     border: 1px solid #c0d2ce;
-
   }
 
   &__message {
@@ -55,14 +53,14 @@
   &__btn {
     font-size: 14px;
     line-height: 16px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
     width: 100%;
     border-radius: 3px;
     background-color: $global-color-java;
     text-transform: uppercase;
-    box-shadow: 0px 5px 0px 0px $global-color-java;
+    box-shadow: 0 5px 0 0 $global-color-java;
     margin-bottom: 4px;
   }
 
@@ -92,7 +90,6 @@
         left: 50%;
         margin-left: -45px;
       }
-
     }
     &:after {
       content: "";
@@ -109,7 +106,5 @@
         margin-left: -35px;
       }
     }
-
   }
-
 }

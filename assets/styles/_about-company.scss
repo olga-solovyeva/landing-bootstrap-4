@@ -7,7 +7,6 @@
 
   @media (max-width: 992px) {
     background: #1b2933;
-
   }
 
   &__section {
@@ -17,7 +16,6 @@
     align-items: center;
     height: 100%;
     width: 100%;
-
   }
 
   &__left {
@@ -36,7 +34,7 @@
 
   &__block {
     font-size: 36px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: "Montserrat-Regular", sans-serif;
     text-transform: capitalize;
     position: relative;
@@ -45,7 +43,6 @@
 
     @media (max-width: 992px) {
       text-align: center;
-
     }
 
     &:before {
@@ -60,7 +57,6 @@
 
       @media (min-width: 992px) {
         left: 30%;
-
       }
     }
     &:after {
@@ -75,10 +71,8 @@
 
       @media (min-width: 992px) {
         left: 30%;
-
       }
     }
-
   }
 
   &__menu {
@@ -115,21 +109,18 @@
       &:first-of-type {
         padding-left: 0;
       }
-
     }
   }
 }
 
 .progress {
   font-size: 13px;
-  color: rgb(255, 255, 255);
+  color: white;
   font-family: "Montserrat-Regular", sans-serif;
   text-transform: uppercase;
-  //width: 556px;
   margin-bottom: 1rem;
   border: 1px solid #949494;
   border-radius: 4px;
-
 }
 
 .progress-bar {
@@ -140,23 +131,17 @@
 
   &__1 {
     background-color: #9b5ca5;
-
   }
   &__2 {
     background-color: #11afdd;
-
   }
   &__3 {
     background-color: #d57f7f;
-
   }
   &__4 {
     background-color: #1fbb9d;
-
   }
   &__5 {
     background-color: #bb8935;
-
   }
-
 }

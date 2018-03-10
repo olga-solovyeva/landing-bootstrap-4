@@ -60,19 +60,17 @@
       @media (max-width: 991.98px) {
         left: calc(0% - 1rem)
       }
-
     }
-
   }
 
   &__btn {
     font-size: 13px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
     border-radius: 4px;
     background-color: $global-color-java;
-    box-shadow: 0px -5px 0px 0px white;
+    box-shadow: 0 -5px 0 0 white;
     text-transform: uppercase;
   }
 }
