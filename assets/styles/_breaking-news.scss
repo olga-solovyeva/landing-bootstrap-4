@@ -9,7 +9,7 @@
 
   &__title {
     font-size: 36px;
-    color: rgb(78, 78, 78);
+    color: $global-color-mirage;
     font-family: "Montserrat-Regular", sans-serif;
     position: relative;
 
@@ -37,7 +37,7 @@
 
   &__card-title {
     font-size: 18px;
-    color: rgb(113, 113, 113);
+    color: $global-color-boulder;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
     line-height: 1.2;
@@ -45,7 +45,7 @@
 
   &__card-subtitle {
     font-size: 14px;
-    color: rgb(119, 119, 119);
+    color: $global-color-boulder;
     font-family: "Montserrat-Light", sans-serif;
   }
 
@@ -59,7 +59,7 @@
       font-family: "Montserrat-Regular", sans-serif;
       width: 67px;
       height: 65px;
-      background-color: #1f3d37;
+      background-color: $global-color-mirage;
       position: absolute;
       content: "12 Feb";
       display: flex;

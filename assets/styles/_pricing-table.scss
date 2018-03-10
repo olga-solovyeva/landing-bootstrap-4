@@ -10,7 +10,7 @@
 
   &__title {
     font-size: 36px;
-    color: rgb(78, 78, 78);
+    color: $global-color-mirage;
     font-family: "Montserrat-Regular", sans-serif;
     position: relative;
 
@@ -93,7 +93,7 @@
     color: white;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
-    background-color: #2d495b;
+    background-color: $global-color-mirage;
     line-height: 2.6;
   }
 
@@ -106,7 +106,7 @@
   &__list {
     line-height: 2.5;
     font-size: 14px;
-    color: rgb(119, 119, 119);
+    color: $global-color-boulder;
     font-family: "Montserrat-Regular", sans-serif;
     background-color: #f7fbfd;
   }
@@ -116,7 +116,7 @@
     color: white;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold;
-    background-color: #2d495b;
+    background-color: $global-color-mirage;
     line-height: 3.5;
     text-transform: uppercase;
   }

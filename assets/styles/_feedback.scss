@@ -1,6 +1,6 @@
 
 .feedback {
-  background-color: #2d495b;
+  background-color: $global-color-mirage;
 
   &__block {
     max-width: 1140px;
@@ -86,14 +86,14 @@
     width: 142px;
     height: 141px;
     border-radius: 71px;
-    background-color: #878787;
+    background-color: $global-color-boulder;
     border: 3px solid $global-color-java;
 
     &--sm {
       width: 58px;
       height: 58px;
       border-radius: 29px;
-      background-color: #878787;
+      background-color: $global-color-boulder;
       position: absolute;
       top: 21px;
       left: 5px;

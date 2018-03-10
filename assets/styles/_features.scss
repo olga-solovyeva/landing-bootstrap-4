@@ -8,7 +8,7 @@
 
   &__text {
     font-size: 36px;
-    color: rgb(78, 78, 78);
+    color: $global-color-mirage;
     font-family: "Montserrat-Regular", sans-serif;
     text-align: center;
     margin-bottom: 6rem;
@@ -51,7 +51,7 @@
 
     &--title {
       font-size: 18px;
-      color: rgb(113, 113, 113);
+      color: $global-color-boulder;
       font-family: "Montserrat-Bold", sans-serif;
       font-weight: bold;
       text-transform: capitalize;
@@ -61,7 +61,7 @@
 
     &--text {
       font-size: 14px;
-      color: rgb(119, 119, 119);
+      color: $global-color-boulder;
       font-family: "Montserrat-Light", sans-serif;
       line-height: 1.75;
       text-align: justify;

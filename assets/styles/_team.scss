@@ -10,7 +10,7 @@
 
   &__title {
     font-size: 36px;
-    color: rgb(78, 78, 78);
+    color: $global-color-mirage;
     font-family: "Montserrat-Regular", sans-serif;
     position: relative;
     text-transform: capitalize;
@@ -37,7 +37,7 @@
   }
 
   &__card {
-    background-color: #2d495b;
+    background-color: $global-color-mirage;
     font-size: 16px;
     color: white;
     font-family: "Montserrat-Bold", sans-serif;
@@ -58,7 +58,7 @@
     }
 
     &:hover .team__position {
-      color: rgb(46, 74, 91);
+      color: $global-color-mirage;
     }
   }
 
@@ -93,7 +93,7 @@
   }
 
   &__social-block {
-    background-color: #2d495b;
+    background-color: $global-color-mirage;
     display: flex;
     height: 65px;
   }

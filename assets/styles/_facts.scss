@@ -1,5 +1,4 @@
 $facts-height: 374px;
-$facts-color-dark: #25333b;
 
 
 .facts {
@@ -9,7 +8,7 @@ $facts-color-dark: #25333b;
 
   &__item {
     width: 25%;
-    background-color: $facts-color-dark;
+    background-color: $global-color-mirage;
     border: 1px solid rgba(0, 0, 0, 0.125);
     display: flex;
     justify-content: center;
@@ -25,13 +24,13 @@ $facts-color-dark: #25333b;
 
     &:nth-of-type(even) {
       background-color: $global-color-java;
-      box-shadow: 0 -7px 0 0 $facts-color-dark;
-      color: $facts-color-dark;
+      box-shadow: 0 -7px 0 0 $global-color-mirage;
+      color: $global-color-mirage;
 
       .facts__ellipse {
-        border: 2px solid $facts-color-dark;
+        border: 2px solid $global-color-mirage;
         &:before {
-          background-color: $facts-color-dark;
+          background-color: $global-color-mirage;
         }
       }
     }
